@@ -41,9 +41,21 @@ const config: Config = {
           '20%, 60%': { transform: 'translateX(-4px)' },
           '40%, 80%': { transform: 'translateX(4px)' },
         },
+        'idle-bob': {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-6px)' },
+        },
+        'float-fade': {
+          '0%': { opacity: '0', transform: 'translateY(8px)' },
+          '20%': { opacity: '1', transform: 'translateY(-4px)' },
+          '80%': { opacity: '1', transform: 'translateY(-18px)' },
+          '100%': { opacity: '0', transform: 'translateY(-28px)' },
+        },
       },
       animation: {
         shake: 'shake 0.25s ease-in-out',
+        'idle-bob': 'idle-bob 1.8s ease-in-out infinite',
+        'float-fade': 'float-fade 1.2s ease-out forwards',
       },
     },
   },

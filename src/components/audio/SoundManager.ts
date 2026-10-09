@@ -50,7 +50,25 @@ class RetroSoundEngine {
       this.masterGain.gain.setValueAtTime(muted ? 0 : 0.7, this.ctx.currentTime);
     }
   }
+  public playDefeatJingle() {
+    this.stopMusic();
+    // Descending diminished chord in sawtooth / noise (Classic Arcade Loss)
+    const notes = [440, 415.3, 392, 349.23, 293.66, 220, 110];
+    const times = [0, 160, 320, 480, 640, 800, 1020];
+    const durations = [0.15, 0.15, 0.15, 0.15, 0.2, 0.3, 0.6];
 
+    notes.forEach((freq, idx) => {
+      setTimeout(() => {
+        this.playTone(freq, 'sawtooth', durations[idx] ?? 0.2, 0.5, freq * 0.85);
+      }, times[idx]);
+    });
+
+    // Final sub-bass impact thud
+    setTimeout(() => {
+      this.playNoise(0.5, 0.8);
+      this.playTone(60, 'sawtooth', 0.6, 0.7, 20);
+    }, 1020);
+  }
   public playTone(freq: number, type: OscillatorType, duration: number, vol = 1.0, pitchEnd?: number) {
     this.initContext();
     if (!this.ctx || !this.sfxGain || this.isMuted) return;
