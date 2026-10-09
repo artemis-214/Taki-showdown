@@ -1,0 +1,283 @@
+[
+  {
+    "id": "ghost_stance",
+    "name": "Ghost Stance",
+    "type": "Stealth",
+    "power": 70,
+    "accuracy": 100,
+    "priority": 1,
+    "maxPp": 10,
+    "category": "physical",
+    "target": "single_opponent",
+    "effect": {
+      "kind": "damage",
+      "status": null,
+      "statusChance": 0
+    },
+    "description": "Lightning-fast strike with priority."
+  },
+  {
+    "id": "shadow_parry",
+    "name": "Moon Parry",
+    "type": "Melee",
+    "power": 0,
+    "accuracy": 100,
+    "priority": 2,
+    "maxPp": 8,
+    "category": "status",
+    "target": "self",
+    "effect": {
+      "kind": "shield",
+      "status": null,
+      "statusChance": 0,
+      "shieldAmount": 45
+    },
+    "description": "Absorbs up to 45 damage."
+  },
+  {
+    "id": "soul_siphon",
+    "name": "Soul Siphon",
+    "type": "Soul",
+    "power": 60,
+    "accuracy": 95,
+    "priority": 0,
+    "maxPp": 10,
+    "category": "special",
+    "target": "single_opponent",
+    "effect": {
+      "kind": "drain",
+      "status": null,
+      "statusChance": 0,
+      "healAmount": 30
+    },
+    "description": "Restores 50% damage dealt."
+  },
+  {
+    "id": "abyss_shriek",
+    "name": "Abyss Shriek",
+    "type": "Soul",
+    "power": 90,
+    "accuracy": 85,
+    "priority": 0,
+    "maxPp": 5,
+    "category": "special",
+    "target": "single_opponent",
+    "effect": {
+      "kind": "damage",
+      "status": null,
+      "statusChance": 0
+    },
+    "description": "Devastating blast of dark soul energy."
+  },
+  {
+    "id": "plasma_grenade",
+    "name": "Plasma Blast",
+    "type": "Tactical",
+    "power": 85,
+    "accuracy": 90,
+    "priority": 0,
+    "maxPp": 8,
+    "category": "special",
+    "target": "single_opponent",
+    "effect": {
+      "kind": "damage",
+      "status": "burn",
+      "statusChance": 35
+    },
+    "description": "Fires plasma ordinance that burns."
+  },
+  {
+    "id": "overshield",
+    "name": "Armor Lock",
+    "type": "Heavy",
+    "power": 0,
+    "accuracy": 100,
+    "priority": 1,
+    "maxPp": 6,
+    "category": "status",
+    "target": "self",
+    "effect": {
+      "kind": "shield",
+      "status": null,
+      "statusChance": 0,
+      "shieldAmount": 60
+    },
+    "description": "Generates reinforced overshield."
+  },
+  {
+    "id": "web_pull",
+    "name": "Web Snare",
+    "type": "Acrobatic",
+    "power": 45,
+    "accuracy": 95,
+    "priority": 1,
+    "maxPp": 12,
+    "category": "physical",
+    "target": "single_opponent",
+    "effect": {
+      "kind": "status",
+      "status": "paralyze",
+      "statusChance": 50
+    },
+    "description": "Webbing that severely impedes speed."
+  },
+  {
+    "id": "kinetic_slam",
+    "name": "Kinetic Drop",
+    "type": "Kinetic",
+    "power": 80,
+    "accuracy": 90,
+    "priority": 0,
+    "maxPp": 8,
+    "category": "physical",
+    "target": "single_opponent",
+    "effect": {
+      "kind": "damage",
+      "status": null,
+      "statusChance": 0
+    },
+    "description": "Acrobatic aerial dive."
+  },
+  {
+    "id": "flambe_rush",
+    "name": "Flambé Rush",
+    "type": "Culinary",
+    "power": 65,
+    "accuracy": 95,
+    "priority": 0,
+    "maxPp": 10,
+    "category": "special",
+    "target": "single_opponent",
+    "effect": {
+      "kind": "damage",
+      "status": "burn",
+      "statusChance": 50
+    },
+    "description": "Torches target with caramel flames."
+  },
+  {
+    "id": "banquet_prep",
+    "name": "Victory Banquet",
+    "type": "Culinary",
+    "power": 0,
+    "accuracy": 100,
+    "priority": 0,
+    "maxPp": 5,
+    "category": "status",
+    "target": "self",
+    "effect": {
+      "kind": "heal",
+      "status": null,
+      "statusChance": 0,
+      "healAmount": 55
+    },
+    "description": "Gourmet dish restoring 55 HP."
+  },
+  {
+    "id": "smoke_screen",
+    "name": "Sky Smoke",
+    "type": "Stealth",
+    "power": 0,
+    "accuracy": 100,
+    "priority": 2,
+    "maxPp": 6,
+    "category": "status",
+    "target": "self",
+    "effect": {
+      "kind": "buff",
+      "status": null,
+      "statusChance": 0,
+      "statModifier": {
+        "stat": "speed",
+        "stages": 2
+      }
+    },
+    "description": "Boosts speed."
+  },
+  {
+    "id": "vandal_burst",
+    "name": "Headshot Tap",
+    "type": "Tactical",
+    "power": 95,
+    "accuracy": 85,
+    "priority": 0,
+    "maxPp": 5,
+    "category": "physical",
+    "target": "single_opponent",
+    "effect": {
+      "kind": "damage",
+      "status": null,
+      "statusChance": 0
+    },
+    "description": "High-risk tactical burst."
+  },
+  {
+    "id": "party_cannon",
+    "name": "Party Cannon",
+    "type": "Birthday",
+    "power": 65,
+    "accuracy": 95,
+    "priority": 0,
+    "maxPp": 12,
+    "category": "special",
+    "target": "single_opponent",
+    "effect": {
+      "kind": "damage",
+      "status": null,
+      "statusChance": 0
+    },
+    "description": "Deals 2x damage to Boss types."
+  },
+  {
+    "id": "birthday_cake",
+    "name": "Tiered Cake",
+    "type": "Birthday",
+    "power": 0,
+    "accuracy": 100,
+    "priority": 0,
+    "maxPp": 5,
+    "category": "status",
+    "target": "self",
+    "effect": {
+      "kind": "heal",
+      "status": null,
+      "statusChance": 0,
+      "healAmount": 65
+    },
+    "description": "Feast granting 65 HP recovery."
+  },
+  {
+    "id": "candle_barrage",
+    "name": "Candle Volley",
+    "type": "Birthday",
+    "power": 85,
+    "accuracy": 90,
+    "priority": 0,
+    "maxPp": 8,
+    "category": "special",
+    "target": "single_opponent",
+    "effect": {
+      "kind": "damage",
+      "status": "burn",
+      "statusChance": 40
+    },
+    "description": "Fires sparklers scorching defense."
+  },
+  {
+    "id": "pinata_smash",
+    "name": "Piñata Smash",
+    "type": "Melee",
+    "power": 100,
+    "accuracy": 80,
+    "priority": 0,
+    "maxPp": 5,
+    "category": "physical",
+    "target": "single_opponent",
+    "effect": {
+      "kind": "damage",
+      "status": "stun",
+      "statusChance": 25
+    },
+    "description": "Full-force swing that can stun."
+  }
+]

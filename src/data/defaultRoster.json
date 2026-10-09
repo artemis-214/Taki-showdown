@@ -1,0 +1,219 @@
+[
+  {
+    "id": "jin_sakai",
+    "name": "Jin Sakai",
+    "title": "Ghost of Tsushima",
+    "types": [
+      "Melee",
+      "Stealth"
+    ],
+    "level": 50,
+    "stats": {
+      "hp": 130,
+      "maxHp": 130,
+      "attack": 125,
+      "defense": 95,
+      "speed": 115
+    },
+    "spriteUrl": "/sprites/jin.png",
+    "avatarSvg": "katana",
+    "moves": [
+      "ghost_stance",
+      "shadow_parry",
+      "vandal_burst",
+      "pinata_smash"
+    ],
+    "abilityId": "way_of_the_flame",
+    "dialogue": {
+      "intro": "Honor died on the beach. Victory is all that remains.",
+      "defeat": "My blade was not sharp enough...",
+      "victory": "The Sakai clan endures."
+    }
+  },
+  {
+    "id": "the_knight",
+    "name": "The Knight",
+    "title": "Vessel of Hallownest",
+    "types": [
+      "Melee",
+      "Soul"
+    ],
+    "level": 50,
+    "stats": {
+      "hp": 120,
+      "maxHp": 120,
+      "attack": 110,
+      "defense": 90,
+      "speed": 130
+    },
+    "spriteUrl": "/sprites/knight.png",
+    "avatarSvg": "nail",
+    "moves": [
+      "soul_siphon",
+      "abyss_shriek",
+      "ghost_stance",
+      "shadow_parry"
+    ],
+    "abilityId": "soul_meter",
+    "dialogue": {
+      "intro": "...",
+      "defeat": "...",
+      "victory": "..."
+    }
+  },
+  {
+    "id": "master_chief",
+    "name": "Master Chief",
+    "title": "Spartan-117",
+    "types": [
+      "Tactical",
+      "Heavy"
+    ],
+    "level": 50,
+    "stats": {
+      "hp": 155,
+      "maxHp": 155,
+      "attack": 120,
+      "defense": 125,
+      "speed": 85
+    },
+    "spriteUrl": "/sprites/chief.png",
+    "avatarSvg": "helmet",
+    "moves": [
+      "plasma_grenade",
+      "overshield",
+      "vandal_burst",
+      "kinetic_slam"
+    ],
+    "abilityId": "mjolnir_recharge",
+    "dialogue": {
+      "intro": "Sir, finishing this fight.",
+      "defeat": "Cortana, need a readout...",
+      "victory": "Objective secured."
+    }
+  },
+  {
+    "id": "peter_parker",
+    "name": "Spider-Hero",
+    "title": "Friendly Neighborhood",
+    "types": [
+      "Acrobatic",
+      "Kinetic"
+    ],
+    "level": 50,
+    "stats": {
+      "hp": 125,
+      "maxHp": 125,
+      "attack": 105,
+      "defense": 95,
+      "speed": 135
+    },
+    "spriteUrl": "/sprites/spidey.png",
+    "avatarSvg": "web",
+    "moves": [
+      "web_pull",
+      "kinetic_slam",
+      "ghost_stance",
+      "shadow_parry"
+    ],
+    "abilityId": "spider_sense",
+    "dialogue": {
+      "intro": "Just your friendly neighborhood combatant!",
+      "defeat": "Ouch, my spider-sense missed that...",
+      "victory": "Woohoo! Back in time for pizza."
+    }
+  },
+  {
+    "id": "the_head_chef",
+    "name": "The Head Chef",
+    "title": "Iron Saucier",
+    "types": [
+      "Culinary",
+      "Chaos"
+    ],
+    "level": 50,
+    "stats": {
+      "hp": 140,
+      "maxHp": 140,
+      "attack": 100,
+      "defense": 115,
+      "speed": 90
+    },
+    "spriteUrl": "/sprites/chef.png",
+    "avatarSvg": "toque",
+    "moves": [
+      "flambe_rush",
+      "banquet_prep",
+      "plasma_grenade",
+      "pinata_smash"
+    ],
+    "abilityId": "michelin_taste",
+    "dialogue": {
+      "intro": "Order up! Turn up the heat.",
+      "defeat": "Overcooked...",
+      "victory": "Compliments to the chef!"
+    }
+  },
+  {
+    "id": "spike_defuser",
+    "name": "Spike Defuser",
+    "title": "Tactical Operative",
+    "types": [
+      "Tactical",
+      "Stealth"
+    ],
+    "level": 50,
+    "stats": {
+      "hp": 120,
+      "maxHp": 120,
+      "attack": 130,
+      "defense": 85,
+      "speed": 125
+    },
+    "spriteUrl": "/sprites/operative.png",
+    "avatarSvg": "crosshair",
+    "moves": [
+      "vandal_burst",
+      "smoke_screen",
+      "ghost_stance",
+      "plasma_grenade"
+    ],
+    "abilityId": "site_anchor",
+    "dialogue": {
+      "intro": "Site secured. Planting the execution.",
+      "defeat": "Cover blown...",
+      "victory": "Clutch secured."
+    }
+  },
+  {
+    "id": "birthday_legend",
+    "name": "The Birthday Legend",
+    "title": "Master of Multiverses",
+    "types": [
+      "Birthday",
+      "Melee"
+    ],
+    "level": 50,
+    "stats": {
+      "hp": 150,
+      "maxHp": 150,
+      "attack": 120,
+      "defense": 110,
+      "speed": 110
+    },
+    "spriteUrl": "/sprites/birthday.png",
+    "avatarSvg": "crown",
+    "moves": [
+      "party_cannon",
+      "birthday_cake",
+      "candle_barrage",
+      "pinata_smash"
+    ],
+    "abilityId": "birthday_aura",
+    "dialogue": {
+      "intro": "Today is my day, you can't touch this!",
+      "defeat": "GG, what a round!",
+      "victory": "Cake for everyone, victory is mine!"
+    }
+  }
+]

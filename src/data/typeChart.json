@@ -1,0 +1,26 @@
+{
+  "Tactical": {
+    "Stealth": 2,
+    "Sweeper": 2,
+    "Tank": 0.5,
+    "Melee": 0.5
+  },
+  "Melee": {
+    "Tactical": 2,
+    "Caster": 2,
+    "Tank": 0.5
+  },
+  "Acrobatic": {
+    "Heavy": 2,
+    "Kinetic": 2,
+    "Stealth": 0.5
+  },
+  "Culinary": {
+    "Tank": 2,
+    "Cold": 2,
+    "Acrobatic": 0.5
+  },
+  "Birthday": {
+    "Boss": 2
+  }
+}
