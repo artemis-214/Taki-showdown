@@ -15,7 +15,7 @@ export default function RosterViewerPage() {
   const [fightersList, setFightersList] = useState<FighterData[]>(fightersRaw as unknown as FighterData[]);
   const [inspectingFighter, setInspectingFighter] = useState<FighterData | null>(null);
 
-  // Map moves for quick lookup (fixed initialization scope bug)
+  // Map moves for fast lookup
   const movesMap = useMemo(() => {
     const map = new Map<string, MoveData>();
     (movesRaw as unknown as MoveData[]).forEach((m) => map.set(m.id, m));
@@ -27,7 +27,7 @@ export default function RosterViewerPage() {
     setFightersList(fightersRaw as unknown as FighterData[]);
   }, []);
 
-  // Collect all unique types across the current roster
+  // Collect all unique types across the roster
   const availableTypes = useMemo(() => {
     const typesSet = new Set<string>();
     fightersList.forEach((f) => {
@@ -69,27 +69,29 @@ export default function RosterViewerPage() {
       const parsed: FighterData[] = rows
         .map((line) => {
           const cols = line.split(',').map((c) => c.replace(/^"|"$/g, '').trim());
-          if (!cols[0]) return null;
+          const id = cols[0];
+          if (!id) return null;
 
           const primary = cols[3] || 'Melee';
           const secondary = cols[4] && cols[4].toLowerCase() !== 'none' ? cols[4] : null;
           const types = secondary ? [primary, secondary] : [primary];
-          const hp = parseInt(cols[6] || cols[5], 10) || 120;
+          const rawHp = cols[6] || cols[5] || '120';
+          const hp = parseInt(rawHp, 10) || 120;
 
           return {
-            id: cols[0],
-            name: cols[1] || cols[0],
+            id,
+            name: cols[1] || id,
             title: cols[2] || 'Multiverse Combatant',
             types: types as any,
-            level: parseInt(cols[5], 10) || 50,
+            level: parseInt(cols[5] || '50', 10) || 50,
             stats: {
               hp,
               maxHp: hp,
-              attack: parseInt(cols[7], 10) || 100,
-              defense: parseInt(cols[8], 10) || 100,
-              speed: parseInt(cols[9], 10) || 100,
+              attack: parseInt(cols[7] || '100', 10) || 100,
+              defense: parseInt(cols[8] || '100', 10) || 100,
+              speed: parseInt(cols[9] || '100', 10) || 100,
             },
-            spriteUrl: `/sprites/${cols[0]}.png`,
+            spriteUrl: `/sprites/${id}.png`,
             avatarSvg: cols[18] || cols[14] || '⚔️',
             moves: [
               cols[10] || 'ghost_stance',
