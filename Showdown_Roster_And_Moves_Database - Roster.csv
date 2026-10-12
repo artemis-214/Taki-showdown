@@ -1,0 +1,61 @@
+id,name,title,primary_type,secondary_type,level,hp,attack,defense,speed,move_1,move_2,move_3,move_4,ability_id,intro_dialogue,victory_dialogue,defeat_dialogue,avatar_glyph
+jin_sakai,Jin Sakai,Ghost of Tsushima,Melee,Stealth,50,130,125,95,115,ghost_stance,shadow_parry,vandal_burst,pinata_smash,way_of_the_flame,Honor died on the beach. Victory is all that remains.,The Sakai clan endures.,My blade was not sharp enough...,🗡️
+the_knight,The Knight,Vessel of Hallownest,Melee,Soul,50,120,110,90,130,soul_siphon,abyss_shriek,ghost_stance,shadow_parry,soul_meter,...,...,...,⚔️
+master_chief,Master Chief,Spartan-117,Tactical,Heavy,50,155,120,125,85,plasma_grenade,overshield,vandal_burst,kinetic_slam,mjolnir_recharge,"Sir, finishing this fight.",Objective secured.,"Cortana, need a readout...",🎖️
+peter_parker,Spider-Hero,Friendly Neighborhood,Acrobatic,Kinetic,50,125,105,95,135,web_pull,kinetic_slam,ghost_stance,shadow_parry,spider_sense,Just your friendly neighborhood combatant!,Woohoo! Back in time for pizza.,"Ouch, my spider-sense missed that...",🕸️
+the_head_chef,The Head Chef,Iron Saucier,Culinary,Chaos,50,140,100,115,90,flambe_rush,banquet_prep,plasma_grenade,pinata_smash,michelin_taste,Order up! Turn up the heat.,Compliments to the chef!,Overcooked...,🍳
+spike_defuser,Spike Defuser,Tactical Operative,Tactical,Stealth,50,120,130,85,125,vandal_burst,smoke_screen,ghost_stance,plasma_grenade,site_anchor,Site secured. Planting the execution.,Clutch secured.,Cover blown...,🎯
+birthday_legend,The Birthday Legend,Master of Multiverses,Birthday,Melee,67,200,120,110,110,party_cannon,birthday_cake,candle_barrage,pinata_smash,birthday_aura,"Today is my day, you can't touch this!","Cake for everyone, victory is mine!","GG, what a round!",👑
+myra,Myra,Master of College Aps,Kinetic,Tactical,50,130,100,110,50,bore_logy,ariana_kick,,,,,,,⚔️
+divyam,Divyam,Gayest of gays,Stealth,Soul,50,100,130,80,70,sleeper,pusher,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
+,,,,,,,,,,,,,,,,,,⚔️
